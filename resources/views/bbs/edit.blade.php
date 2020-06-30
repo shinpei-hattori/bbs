@@ -15,7 +15,7 @@
                 <time class="float-right">{{$post->created_at}}</time>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-info"><{{$post->title}}></h5>
+                <h5 class="card-title text-info">&lt;{{$post->title}}&gt;</h5>
                 <p class="card-text">{{$post->content}}</p>
                 <a href="{{ route('posts.show',['id' => $post->id]) }}" class="btn btn-primary">見る</a>
             </div>
