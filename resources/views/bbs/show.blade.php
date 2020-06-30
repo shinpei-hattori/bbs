@@ -12,7 +12,7 @@
                 <time class="float-right">{{$posts->created_at}}</time>
             </div>
             <div class="card-body">
-                <h5 class="card-title text-info"><{{$posts->title}}></h5>
+                <h5 class="card-title text-info">&lt;{{$posts->title}}&gt;</h5>
                 <p class="card-text">{{$posts->content}}</p>
             </div>
         </div>
