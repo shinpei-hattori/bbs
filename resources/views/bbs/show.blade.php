@@ -5,7 +5,7 @@
 
   
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
         <div class="card mb-5">
             <div class="card-header">
                 {{$posts->cat_name}}

@@ -5,7 +5,7 @@
 
   
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
         <p class="text-center">-投稿履歴-</p>
         @foreach($posts as $post)
         <div class="card mb-1">

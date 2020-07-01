@@ -67,7 +67,7 @@
     <div class="container mt-5 mb-5">
     
       <div class="row">
-        <div class="col-3">
+        <div class="col-md-3 mb-5">
           <div class="list-group" id="list-tab" role="tablist">
           <a class="btn btn-primary mb-3" href="{{ route('posts.edit') }}" role="button">投稿履歴</a>
           <a class="btn btn-danger mb-3" href="{{ route('posts.create') }}" role="button">投稿する</a>

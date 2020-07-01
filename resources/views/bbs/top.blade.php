@@ -3,7 +3,7 @@
 @section('container')
 @parent
 @section('content')
-<div class="col-9">
+<div class="col-md-9">
     @foreach($items as $item)
     
         <div class="card mb-5">

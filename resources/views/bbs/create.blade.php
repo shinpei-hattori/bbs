@@ -5,7 +5,7 @@
 
 
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
     @if($errors->any())
     <div class="alert alert-danger">
         <ul>
