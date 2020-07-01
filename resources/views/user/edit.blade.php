@@ -5,7 +5,7 @@
 
   
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
     <div class="text-center mb-3">-編集画面-</div>
     
     @if($errors->any())

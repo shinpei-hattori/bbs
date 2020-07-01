@@ -5,7 +5,7 @@
 
   
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
     <div class="alert alert-danger" role="alert">
     -本当に削除してよろしいですか？-
     </div>

@@ -5,7 +5,7 @@
 
   
     @section('content')
-    <div class="col-9">
+    <div class="col-md-9">
     <div class="text-center mb-3">-会員情報-</div>
         <table class="table table-primary">
             
